@@ -21,7 +21,7 @@ h3 {
     margin: 10px 0;
 }
 
-h6 {
+h4 {
     margin: 5px 0;
     text-transform: uppercase;
 }
@@ -65,7 +65,7 @@ button.primary {
     background-color: var(---zalm-kleur);
     border: 1px solid var(---zalm-kleur);
     border-radius: 3px;
-    color: var(---white);
+    color: var(---black);
     font-family: Montserrat, sans-serif;
     font-weight: 500;
     padding: 10px 25px;
