@@ -22,6 +22,94 @@ interface HomepageDocumentData {
   title: prismic.KeyTextField;
 
   /**
+   * bio field in *homepage*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: homepage.bio
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  bio: prismic.RichTextField;
+
+  /**
+   * skills field in *homepage*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: homepage.skills
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  skills: prismic.RichTextField;
+
+  /**
+   * label field in *homepage*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: homepage.label
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  label: prismic.KeyTextField;
+
+  /**
+   * follow field in *homepage*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: homepage.follow
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  follow: prismic.KeyTextField;
+
+  /**
+   * message field in *homepage*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: homepage.message
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  message: prismic.KeyTextField;
+
+  /**
+   * skill field in *homepage*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: homepage.skill
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  skill: prismic.KeyTextField;
+
+  /**
+   * locatie field in *homepage*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: homepage.locatie
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  locatie: prismic.KeyTextField;
+
+  /**
+   * zenit field in *homepage*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: homepage.zenit
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  zenit: prismic.ImageField<never>;
+
+  /**
    * Slice Zone field in *homepage*
    *
    * - **Field Type**: Slice Zone

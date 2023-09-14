@@ -20,6 +20,67 @@
           "placeholder": ""
         }
       },
+      "bio": {
+        "type": "StructuredText",
+        "config": {
+          "label": "bio",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "skills": {
+        "type": "StructuredText",
+        "config": {
+          "label": "skills",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "label": {
+        "type": "Text",
+        "config": {
+          "label": "label",
+          "placeholder": ""
+        }
+      },
+      "follow": {
+        "type": "Text",
+        "config": {
+          "label": "follow",
+          "placeholder": ""
+        }
+      },
+      "message": {
+        "type": "Text",
+        "config": {
+          "label": "message",
+          "placeholder": ""
+        }
+      },
+      "skill": {
+        "type": "Text",
+        "config": {
+          "label": "skill",
+          "placeholder": ""
+        }
+      },
+      "locatie": {
+        "type": "Text",
+        "config": {
+          "label": "locatie",
+          "placeholder": ""
+        }
+      },
+      "zenit": {
+        "type": "Image",
+        "config": {
+          "label": "zenit",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",

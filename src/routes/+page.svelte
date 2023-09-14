@@ -10,25 +10,20 @@
 
 <main>
 	<div class="card-container">
-		<span class="pro"></span>
-		<!-- <img class="round" src="{slice.primary.foto} " alt="profile photo" /> -->
+		<span class="pro">{data.label}</span>
+		<!-- svelte-ignore a11y-img-redundant-alt -->
+		<img class="round" src="{ data.zenit.url }" alt="profile photo" />
 		<h3>{data.title}</h3>
-
-	<h6></h6>
-		<p><br /> </p>
+		<p>{ data.bio[0].text }<br/></p>
+        <h6>{data.locatie}</h6>
 		<div class="buttons">
-			<button class="primary"></button>
-			<button class="primary ghost"> </button>
+			<button class="primary">{data.message}</button>
+			<button class="primary ghost"> {data.follow}</button>
 		</div>
 		<div class="skills">
-			<h6></h6>
+			<h6>{data.skill}</h6>
 			<ul>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
+				<li>{ data.skills[0].text}</li>
 			</ul>
 		</div>
 	</div>
